@@ -36,7 +36,7 @@ const UpcomingFilms = () => {
 
     return (
     <>
-        <h1 class="App">Upcoming Films</h1>
+        <h1 class="App">Upcoming Film Releases for UK</h1>
         <MovieList movies={movies}/>
         <Button title="View More Upcoming Releases" url="https://www.imdb.com/calendar/?region=gb"/>
     </>
